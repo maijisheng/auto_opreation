@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class AutoOpreationApplication {
-	@RequestMapping("/")
+	@RequestMapping("/test")
 	public String index(){
 		return "get start";
 	}
